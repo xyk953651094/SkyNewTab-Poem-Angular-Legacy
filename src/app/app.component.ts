@@ -211,8 +211,8 @@ export class AppComponent implements OnInit {
         if (storageVersion !== currentVersion) {
             this.notification.blank(
                 "已更新至版本 V" + currentVersion,
-                "详细内容请前往菜单栏更新日志查看",
-                {nzPlacement: "bottomLeft", nzDuration: 5000, nzCloseIcon: "null"}
+                "此插件后续不再更新，请前往插件商店搜索 云开诗词新标签页（Next）",
+                {nzPlacement: "bottomLeft", nzDuration: 10000, nzCloseIcon: "null"}
             );
             setExtensionStorage("SkyNewTabPoemAngularVersion", currentVersion);
 
